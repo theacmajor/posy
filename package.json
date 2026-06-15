@@ -1,0 +1,19 @@
+{
+  "name": "posy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Posy turns your Instagram 'Saved' data export into a calm, organized, searchable, 100% local library. No login, no scraping, no servers.",
+  "author": "Anand Chauhan (https://www.anandis.pro)",
+  "homepage": "https://www.anandis.pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theacmajor/posy.git"
+  },
+  "scripts": {
+    "scan": "python3 main.py scan",
+    "covers": "python3 main.py covers",
+    "organize": "python3 main.py organize",
+    "organize:move": "python3 main.py organize --move",
+    "build-index": "python3 main.py build-index"
+  }
+}
